@@ -8,3 +8,4 @@ Work for school
 - [ ] Drag and Drop clothes
 - [ ] Change height and withd
 - [ ] SFX and maybe Music
+- [ ] Change color for clothes
