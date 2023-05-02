@@ -2,10 +2,10 @@
 Work for school
 
 ##Task list
-- [ ] Character name and level/age
+- [ ] Character name and level
 - [ ] Dropdown with diffrent characters
-- [ ] Diffrent clothes pieces(pants, shirts, hats, shoes)
+- [ ] Dropdown for clothes pieces(pants, shirts, hats, shoes)
+- [ ] Diffrent clothes sets
 - [ ] Drag and Drop clothes
 - [ ] Change height and withd
 - [ ] SFX and maybe Music
-- [ ] Change color for clothes
