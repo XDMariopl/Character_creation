@@ -46,8 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Change_img.cs" />
      <Compile Include="Assets\Scripts\Change_scene.cs" />
+     <Compile Include="Assets\Scripts\Drag_drop.cs" />
      <Compile Include="Assets\Scripts\Sliders.cs" />
+     <Compile Include="Assets\Scripts\Text_smt.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
