@@ -14,9 +14,9 @@ public class Text_smt : MonoBehaviour {
     {
         txt=TxtInput.GetComponent<InputField>().text;
         lvl=LvlInput.GetComponent<InputField>().text;
-        if(TxtInput != null)
+        if(txt!="")
         {
-            if(LvlInput!= null)
+            if(lvl !="")
             {
                 output.GetComponent<Text>().text = txt+" is currently at level "+lvl;
             }
