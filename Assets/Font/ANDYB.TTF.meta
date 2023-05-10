@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f45ab7441a9d3e048b80c75b074f5891
+timeCreated: 1683701074
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Andy
+  fontNames:
+  - Andy
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Text_smt : MonoBehaviour {
-    private string lvl;
+    private int lvl;
     private string txt;
     public GameObject TxtInput;
     public GameObject LvlInput;
@@ -13,10 +14,10 @@ public class Text_smt : MonoBehaviour {
     public void ShowTxt()
     {
         txt=TxtInput.GetComponent<InputField>().text;
-        lvl=LvlInput.GetComponent<InputField>().text;
+        lvl = Int32.Parse(LvlInput.GetComponent<InputField>().text);
         if(txt!="")
         {
-            if(lvl !="")
+            if(lvl>0)
             {
                 output.GetComponent<Text>().text = txt+" is currently at level "+lvl;
             }
